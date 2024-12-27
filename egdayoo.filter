@@ -1,0 +1,46 @@
+# Waystones
+# Waystones (Tier 1-5)
+Show
+    Class "Waystones"
+    BaseType "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Waystone (Tier 4)" "Waystone (Tier 5)"
+    SetTextColor 0 102 204
+    SetBackgroundColor 224 255 255
+    SetBorderColor 70 130 180
+    SetFontSize 40
+    PlayAlertSound 4 200
+    MinimapIcon 2 White Square
+
+
+# Waystones level 6 to 10
+Show
+    Class "Waystones"
+    BaseType "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Waystone (Tier 9)" "Waystone (Tier 10)"
+    SetTextColor 138 43 226
+    SetBackgroundColor 216 191 216
+    SetBorderColor 138 43 226
+    SetFontSize 40
+    PlayAlertSound 4 200
+    MinimapIcon 2 Pink Square
+
+# Waystones level 11 to 14
+Show
+    Class "Waystones"
+    BaseType "Waystone (Tier 11)" "Waystone (Tier 12)" "Waystone (Tier 13)" "Waystone (Tier 14)"
+    SetTextColor 255 20 147
+    SetBackgroundColor 255 228 225
+    SetBorderColor 219 112 147
+    SetFontSize 45
+    PlayAlertSound 4 200
+    MinimapIcon 1 Purple Square
+
+# Waystone level 15
+Show
+    Class "Waystones"
+    BaseType "Waystone (Tier 15)"
+    SetTextColor 230 230 250
+    SetBackgroundColor 220 20 60
+    SetBorderColor 230 230 250
+    SetFontSize 55
+    PlayAlertSound 5 300
+    MinimapIcon 0 Red Square
+    PlayEffect Red
