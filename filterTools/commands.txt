@@ -1,0 +1,7 @@
+# Commads
+
+# MinimapIcon - For adding icons to the mini-map
+MinimapIcon 1 White Triangle - how to use
+Size - The size of the icon (range from 0 to 2, where 2 is the largest size).
+Icon type - The type of the icon (Circle, Diamond, Hexagon, Square, Star, Triangle, Cross).
+Icon color - The color of the icon (Red, Green, Blue, Yellow, White).
