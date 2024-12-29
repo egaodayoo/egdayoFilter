@@ -132,7 +132,7 @@ Show
 #--------------------------
 Show
     BaseType "Uncut"
-    ItemLevel == 19
+    ItemLevel == 20
     SetTextColor 245 153 88
     SetBackgroundColor 3 2 3
     SetBorderColor 245 153 88
@@ -151,3 +151,12 @@ Show
     PlayEffect Cyan
     MinimapIcon 1 Cyan Triangle
 
+Show
+Class "Currency"
+    BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Artificer's Orb"
+    SetTextColor 139 69 19
+    SetBackgroundColor 245 222 179
+    SetBorderColor 210 180 140
+    SetFontSize 38
+    PlayAlertSound 4 200
+    MinimapIcon 2 Brown Circle
