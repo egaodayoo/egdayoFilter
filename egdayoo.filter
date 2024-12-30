@@ -1,28 +1,6 @@
 #--------------------------
 # Waystones
 #--------------------------
-# Waystones (Tier 1-5)
-Show
-    Class "Waystones"
-    BaseType "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Waystone (Tier 4)" "Waystone (Tier 5)"
-    SetTextColor 0 102 204
-    SetBackgroundColor 224 255 255 200
-    SetBorderColor 70 130 180
-    SetFontSize 40
-    PlayAlertSound 11 300
-    MinimapIcon 2 White Square
-
-
-# Waystones level 6 to 10
-Show
-    Class "Waystones"
-    BaseType "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Waystone (Tier 9)" "Waystone (Tier 10)"
-    SetTextColor 138 43 226
-    SetBackgroundColor 216 191 216
-    SetBorderColor 138 43 226
-    SetFontSize 40
-    PlayAlertSound 4 200
-    MinimapIcon 2 Pink Square
 
 # Waystones level 11 to 14
 Show
@@ -51,15 +29,6 @@ Show
 #--------------------------
 # Currency
 #--------------------------
-
-Show
-    Class "Currency"
-    BaseType "Orb of Augmentation" "Orb of Transmutation"
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 250 250 250 150
-    SetBorderColor 0 0 0 255
-    SetFontSize 35
-    MinimapIcon 2 Grey Circle
 
 Show
     Class "Currency"
@@ -127,6 +96,26 @@ Show
     PlayEffect Pink
     CustomAlertSound "/filterTools/Sounds/tuturu.mp3" 300
 
+Show
+    Class "Currency"
+    BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Artificer's Orb"
+    SetTextColor 139 69 19
+    SetBackgroundColor 245 222 179
+    SetBorderColor 210 180 140
+    SetFontSize 38
+    PlayAlertSound 4 200
+    MinimapIcon 2 Brown Circle
+
+Show
+    Class "Currency"
+    BaseType "Greater Jeweller's Orb"
+    SetTextColor 75 0 130
+    SetBackgroundColor 255 255 0
+    PlayAlertSound 2 300
+    PlayEffect Green
+    MinimapIcon 1 Green Circle
+    SetFontSize 40
+
 #--------------------------
 # Uncut Gems
 #--------------------------
@@ -141,7 +130,6 @@ Show
     PlayEffect Orange
     MinimapIcon 0 Orange Star
     CustomAlertSound "/filterTools/Sounds/ayayay.mp3" 300
-    
 
 Show
     BaseType "Uncut"
@@ -151,12 +139,59 @@ Show
     PlayEffect Cyan
     MinimapIcon 1 Cyan Triangle
 
+#--------------------------
+# Top Base Show
+#--------------------------
 Show
-Class "Currency"
-    BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Artificer's Orb"
-    SetTextColor 139 69 19
-    SetBackgroundColor 245 222 179
-    SetBorderColor 210 180 140
-    SetFontSize 38
-    PlayAlertSound 4 200
-    MinimapIcon 2 Brown Circle
+    Rarity "Normal"
+    BaseType "Heavy Belt" "Sapphire Ring" "Stellar Amulet" "Primed Quiver" "Expert Dualstring Bow"
+    SetFontSize 40
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 240
+    PlayEffect White
+    PlayAlertSound 12 300
+
+Show
+    Rarity "Rare"
+    BaseType "Expert Bombard Crossbow" "Stoic Sceptre" "Omen Sceptre" "Expert Hexer's Robe" "Expert Long Quarterstaff" "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff" "Expert Gothic Quarterstaff" "Expert Wrapped Sandals"
+    SetFontSize 40
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 215 0
+    PlayEffect Yellow
+    PlayAlertSound 12 300
+
+#--------------------------
+# Hide
+#--------------------------
+Hide
+    Rarity "Unique"
+    BaseType "Maraketh Cuirass" "Studded Vest" "Fire Quiver" "Emblem Crest Shield" "Gothic Quarterstaff"
+
+# Waystones (Tier 1-5)
+Hide
+    Class "Waystones"
+    BaseType "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Waystone (Tier 4)" "Waystone (Tier 5)"
+    SetTextColor 0 102 204
+    SetBackgroundColor 224 255 255 200
+    SetBorderColor 70 130 180
+    SetFontSize 40
+
+
+# Waystones level 6 to 10
+Hide
+    Class "Waystones"
+    BaseType "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Waystone (Tier 9)" "Waystone (Tier 10)"
+    SetTextColor 138 43 226
+    SetBackgroundColor 216 191 216
+    SetBorderColor 138 43 226
+    SetFontSize 40
+
+Hide
+    Class "Currency"
+    BaseType "Orb of Augmentation" "Orb of Transmutation"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 250 250 250 150
+    SetBorderColor 0 0 0 255
+    SetFontSize 35
+
+
